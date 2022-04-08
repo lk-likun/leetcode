@@ -9,10 +9,6 @@
 class Solution(object):
     @staticmethod
     def levelOrder(root):
-        """
-        :type root: TreeNode
-        :rtype: List[List[int]]
-        """
         if not root:
             return []
         res = list()
