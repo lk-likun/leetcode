@@ -25,5 +25,4 @@ class Solution(object):
             res.append(res_temp)
             LIST = TEMP
         return res
-#ccc
 # leetcode submit region end(Prohibit modification and deletion)
