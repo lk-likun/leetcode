@@ -19,11 +19,11 @@ class TreeNode:
 
 class Solution:
     def sortedListToBST(self, head: Optional[ListNode]) -> Optional[TreeNode]:
-        nums = self.listToArray(head)
+        nums = self.toArray(head)
         root = self.traversal(nums, 0, len(nums) - 1)
         return root
 
-    def listToArray(self, head) -> List:
+    def toArray(self, head: Optional[ListNode]) -> List:
         ls = []
         while head:
             ls.append(head.val)
