@@ -16,7 +16,6 @@ class Solution:
                 res.append(s[i:i + k])
         return "-".join(res)
 
-
 # leetcode submit region end(Prohibit modification and deletion)
 #
 # S = "5F3Z-2e-9-w"

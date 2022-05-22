@@ -43,7 +43,7 @@ class Solution:
         #     dic.update({s[i]: i})
         #     i += 1
         # return res
-        start, res,cache = 0,0,{}
+        start, res, cache = 0, 0, {}
         for i, c in enumerate(s):
             if c in cache and cache[c] >= start:
                 start = cache[c] + 1
